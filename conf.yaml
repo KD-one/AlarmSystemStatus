@@ -1,0 +1,9 @@
+robot:
+  monitor: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=8fd6e912-468b-4cd5-bca5-fc4259783f7d # 机器人地址
+system:
+  checkInterval: 1 # 检查系统状态的间隔时间，单位秒
+  memoryLimit: 60 # 内存使用率限制
+  cpuLimit: 60 # cpu使用率限制
+  receivedLimit: 20 # 网络接收流量限制
+  transmittedLimit: 20 # 网络传输流量限制
+  repeatAlarmInterval: 600 # 重复报警间隔时间，单位秒
